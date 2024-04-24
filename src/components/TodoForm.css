@@ -1,0 +1,97 @@
+.form-container{
+    margin-top:10px;
+}
+.form-div{
+    background-color: #a8a4a4;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 95.8%;
+    padding: 7px;
+    border-radius: 7px;
+}
+.form-div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b6b2b2;
+    padding: 6px;
+}
+.form-sub-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a8a4a4;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 95.8%;
+    padding: 7px;
+    border-radius: 7px;
+}
+.form-sub-div p{
+    margin-top: 5px;
+    font-weight: 400;
+}
+.form-sub-div div{
+    display: flex;
+    align-items: center;
+}
+.form-sub-div div *{
+    margin-left: 15px;
+}
+.form-div p{
+    margin-top: 5px;
+    font-weight: 400;
+}
+.form-div div{
+    display: flex;
+    align-items: center;
+}
+.form-div div *{
+    margin-left: 15px;
+}
+.checkbox{
+    width: 16px;
+    height: 16px;
+}
+.edit{
+    background-color: #f7be06;
+    width: 40px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    /* font-size: 10px; */
+}
+.delete{
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 40px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+    .form-container{
+        margin-top: 10px;
+    }
+    .form-div{
+        margin-left: 18px;
+    }
+    .form-sub-div{
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form-container{
+        margin-top: 10px;
+    }
+    .form-div{
+        margin-left: 8px;
+    }
+    .form-sub-div{
+        margin-left: 8px;
+    }
+}
